@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+}
+
+button {
+  position: fixed;
+}
+
+.flex-con {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.flex-con .right {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 20%;
+  background-color: #62306c;
+  width: 50vw;
+  height: 100vh;
+}
+
+.flex-con .right .r1 {
+  padding: 0px 15%;
+}
+
+.flex-con .right .r1 .rcornersT {
+  margin: auto;
+  border-radius: 100% 100% 0px 0px;
+  background: #f7eb7d;
+  width: 11vw;
+  height: 11vw;
+}
+
+.flex-con .right .r2 {
+  padding: 0px 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-con .right .r2 .rcornersB {
+  border-radius: 0px 0px 100% 100%;
+  background: #f7eb7d;
+  width: 11vw;
+  height: 11vw;
+}
+
+.flex-con .right .r2 .rcornersBH {
+  width: 11vw;
+  height: 11vw;
+}
+
+.flex-con .left {
+  padding-top: 20%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50vw;
+  height: 100vh;
+  background-color: #6591ce;
+}
+
+.flex-con .left .s1 {
+  background-color: #243c82;
+  width: 40vw;
+  margin: auto;
+  height: 20vw;
+}
+
+.flex-con .left .s1 .s2 {
+  margin: auto;
+  width: 30vw;
+  background-color: #6591ce;
+  height: 30vw;
+  border-radius: 100%;
+  position: relative;
+  top: -5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-con .left .s1 .s2 .s3 {
+  margin: auto;
+  width: 20vw;
+  background-color: #243c82;
+  height: 20vw;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-con .left .s1 .s2 .s3 .s4 {
+  background-color: #edb850;
+  height: 7vw;
+  width: 7vw;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=style.css.map */
