@@ -7,11 +7,16 @@ function start(){
         $('#playPause').html('<i class="fas fa-pause"></i>');
         timer = setInterval(run, 10);
         $('#stopwatch').addClass('run');
+        $('#stopwatch').removeClass('pause');
+
     }
     else{
         isrun=false;
         clearInterval(timer);
         $('#playPause').html('<i class="fas fa-play"></i>');
+        $('#stopwatch').addClass('pause');
+    $('#stopwatch').removeClass('run');
+
     }
     
     
@@ -36,4 +41,6 @@ function restart(){
     s = m =ms =0;
     $("#stopwatch").text("00:00:00");
     $('#stopwatch').removeClass('run');
+    $('#stopwatch').removeClass('pause');
+
 }

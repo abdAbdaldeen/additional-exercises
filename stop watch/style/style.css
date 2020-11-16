@@ -49,6 +49,11 @@ body {
   color: #F0C043;
 }
 
+.container .content .pause {
+  border-color: #fff;
+  color: #F0C043;
+}
+
 .container .content button {
   background-color: transparent;
   color: white;
